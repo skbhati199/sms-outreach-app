@@ -277,7 +277,7 @@ const html = `<!DOCTYPE html>
                 <button class="btn-primary" onclick="handlePasscodeLogin()">Sign In with Passcode</button>
               </div>
 
-              <p class="auth-hint">Default passcode is <code>skbhati2026</code>. Access restricted to <code>skbhati199@gmail.com</code>.</p>
+              <p class="auth-hint">Access restricted to authorized administrators.</p>
             </div>
           </div>
         \`;
