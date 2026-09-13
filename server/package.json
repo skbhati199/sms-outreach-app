@@ -1,0 +1,23 @@
+{
+  "name": "sms-app-server",
+  "version": "1.0.0",
+  "description": "Simple Node/Express backend: upload CSV, send SMS via Twilio",
+  "main": "server.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "csv-parse": "^5.6.0",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "google-auth-library": "^11.0.2",
+    "jsonwebtoken": "^9.0.3",
+    "multer": "^2.0.1",
+    "nodemailer": "^7.0.13",
+    "nodemon": "latest",
+    "twilio": "^5.4.3"
+  }
+}
